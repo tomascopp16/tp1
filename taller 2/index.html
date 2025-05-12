@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>La Liga Profesional</title>
+    <meta name="language" content="es">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- En el <head> de tu HTML -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+ <header>
+    <div class="contenedor-header">
+        <h1>PARTICIPÁ POR ENTRADAS A LA FINAL DE LA COPA</h1>
+        <img src="imagenes/jugadores png.png" alt="Jugadores">
+        <a class="btn-a" href="#formulario">QUIERO PARTICIPAR</a>
+    </div>
+</header>
+
+
+
+
+
+    <section>
+        <h2>Copa de la Liga 2025: Equipos y sus Zonas</h2>
+        <div>
+            <p>La primera fase del Torneo Apertura 2025 finalizó luego de la disputa de 16 fechas. El campeonato empezó el 23 de enero y terminará el 1° de junio, con la gran final del certamen.</p>
+            <img src="imagenes/zonas copa de la liga.jpg" alt="Zonas de la Copa de la Liga">
+            <p>Los participantes son los mismos 28 clubes que jugaron en la máxima categoría en 2024, más los dos ascendidos: Aldosivi y San Martín de San Juan.</p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Cuadro de Playoffs</h3>
+        <img src="imagenes/cuadro playoffs.webp" alt="Cuadro de Playoffs">
+       
+    </section>
+
+    </section>
+
+    
+<section id="formulario">
+    <div class="form-container">
+        <h3>Regístrate para participar por los premios</h3>
+        <form>
+            <input type="text" placeholder="Nombre..." name="nombre" required>
+            <input type="text" placeholder="Equipo..." name="equipo" required>
+            <input type="email" placeholder="Correo Electrónico..." name="email" required>
+            <button type="submit">Confirmar</button>
+        </form>
+        <p><a href="#">Términos y política de privacidad</a></p>
+    </div>
+</section>
+
+<style>
+    #formulario {
+        background-color: #022a45;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 30px auto;
+        max-width: 400px;
+        text-align: center;
+        color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    #formulario h3 {
+        margin-bottom: 20px;
+        font-size: 1.2em;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #formulario form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #formulario input {
+        padding: 10px;
+        border: 2px solid #00a3ff;
+        border-radius: 8px;
+        background-color: #01324d;
+        color: #ffffff;
+        font-size: 1em;
+    }
+
+    #formulario input::placeholder {
+        color: #b0d9f7;
+    }
+
+   #formulario button {
+        padding: 10px;
+        background-color: transparent;
+        border: 2px solid #f0b400;
+        border-radius: 8px;
+        color: #f0b400;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    #registro-premios button:hover {
+        background-color: #f0b400;
+        color: #022a45;
+    }
+
+    #registro-premios p {
+        margin-top: 15px;
+        font-size: 0.9em;
+    }
+
+    #registro-premios p a {
+        color: #b0d9f7;
+        text-decoration: none;
+    }
+
+    #registro-premios p a:hover {
+        text-decoration: underline;
+    }
+</style>
+    <footer>
+        <p>Pie de página</p>
+        <a href="https://www.instagram.com/tomascopp06/">Instagram</a>
+        <a href="https://www.ligaprofesional.ar/">Liga Profesional - Sitio

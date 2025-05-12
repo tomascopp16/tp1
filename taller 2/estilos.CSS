@@ -1,0 +1,138 @@
+html{
+background-color: rgb(33, 123, 197);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    background-image: url("imagenes/fondoestadio.jpg");
+    background-size: cover; /* Asegura que el fondo cubra toda el área del header */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* capa oscura para mejorar contraste */
+    filter: blur(8px); /* Aplica el desenfoque al fondo */
+    z-index: 1; /* Asegura que el fondo desenfocado esté por debajo */
+}
+
+.contenedor-header {
+    position: relative;
+    z-index: 2; /* Asegura que el contenido esté por encima del fondo desenfocado */
+}
+
+.contenedor-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: rgb(15, 185, 211); /* Fondo de color para el texto */
+    padding: 10px;
+}
+
+
+h1{
+ background-color: rgb(15, 185, 211);   
+}
+h2{
+ background-color: rgb(55, 121, 215);   
+}
+
+
+footer {
+    background-color: rgb(24, 200, 220);
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: rgb(4, 36, 65);
+    border-radius: 10px;
+}
+
+p {
+    line-height: 1.6;
+    color: #f6f3f3;
+}
+
+.btn-a {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: rgb(15, 127, 196);
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    border: 2px solid rgb(84, 127, 11);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-a:hover {
+    background-color: rgb(81, 177, 229);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    .btn-a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    img {
+        width: 100%;
+    }
+    section {
+        padding: 10px;
+    }
+}
+
